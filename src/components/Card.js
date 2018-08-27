@@ -9,12 +9,14 @@ const Post = styled.li`
   margin: 0 0 1em 0;
   width: 100%;
   transition: background 0.2s;
-  @media screen and (min-width: ${props => props.theme.responsive.small}) {
+  @media screen and (min-width: 640px) {
     flex: 0 0 49%;
     margin: 0 0 2vw 0;
+    font-size: 20px;
   }
-  @media screen and (min-width: ${props => props.theme.responsive.medium}) {
+  @media screen and (max-width: 640px) {
     flex: 0 0 32%;
+    font-size: 16px;
   }
   &:hover {
     background: ${props => props.theme.colors.tertiary};

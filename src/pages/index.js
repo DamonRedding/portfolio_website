@@ -18,7 +18,7 @@ const Index = ({ data }) => {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Gatsby
+            Hi! My name is Damon
           </a>,{' '}
           <a
             href="https://www.contentful.com/"

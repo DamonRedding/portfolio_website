@@ -80,14 +80,16 @@ injectGlobal`
   }
 
   body {
-    background: white;
+    background: blue;
     line-height: 1;
     font-size: 100%;
+    font-size-adjust: 0.508;
     font-variant-ligatures: none;
     text-rendering: optimizeLegibility;
     text-shadow: rgba(0, 0, 0, .01) 0 0 1px;
     font-weight: 400;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-style: normal;
+    font-family: "Apercu Regular", Calibri, sans-serif;
   }
 
   img {

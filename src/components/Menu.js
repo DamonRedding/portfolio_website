@@ -4,6 +4,7 @@ import styled from 'styled-components'
 
 const Header = styled.header`
   background: ${props => props.theme.colors.base};
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.27);
   width: 100%;
   padding: 1.5em 0;
 `
@@ -51,17 +52,17 @@ const Menu = () => {
         <ul>
           <li>
             <Link to="/" exact activeStyle={activeLinkStyle}>
-              Home
+              HOME
             </Link>
           </li>
           <li>
             <Link to="/about/" activeStyle={activeLinkStyle}>
-              About
+              ABOUT
             </Link>
           </li>
           <li>
             <Link to="/contact/" activeStyle={activeLinkStyle}>
-              Contact
+              CONTACT
             </Link>
           </li>
         </ul>

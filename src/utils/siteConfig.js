@@ -1,11 +1,11 @@
 module.exports = {
-  siteTitle: 'GCN',
-  siteTitleAlt: 'GCN Gatsby Starter', // This allows an alternative site title for SEO schema.
+  siteTitle: 'DamonDesigns',
+  siteTitleAlt: 'Design in Redding', // This allows an alternative site title for SEO schema.
   publisher: 'Publisher named GCN', // Organization name used for SEO schema
   siteDescription:
-    'A starter template to build amazing static websites with Gatsby, Contentful and Netlify',
+    'A portfolio website for my amazing work, built with Gatsby, Contentful and Netlify',
   siteUrl: 'https://gcn.netlify.com', // Site domain. Do not include a trailing slash! If you wish to use a path prefix you can read more about that here: https://www.gatsbyjs.org/docs/path-prefix/
-  author: 'GCN User', // Author for RSS author segment and SEO schema
+  author: 'Damon Redding', // Author for RSS author segment and SEO schema
   authorUrl: 'https://gcn.netlify.com/about/', // URL used for author and publisher schema, can be a social profile or other personal site
   userTwitter: '@twitter', // Change for Twitter Cards
   shortTitle: 'GCN App', // Used for App manifest e.g. Mobile Home Screen
@@ -17,3 +17,4 @@ module.exports = {
   themeColor: '#121212', // Used for Offline Manifest
   copyright: 'Copyright © 2018 GCN User', // Copyright string for the RSS feed
 }
+// CFPAT-34bc2d900fd026515cf998f2efc0b3c766887931502feaed5cc924cc3418f26d
