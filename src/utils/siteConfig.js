@@ -1,13 +1,13 @@
 module.exports = {
-  siteTitle: 'DamonDesigns',
-  siteTitleAlt: 'Design in Redding', // This allows an alternative site title for SEO schema.
+  siteTitle: 'DRockDesignS',
+  siteTitleAlt: 'DRockin Designs', // This allows an alternative site title for SEO schema.
   publisher: 'Publisher named GCN', // Organization name used for SEO schema
   siteDescription:
     'A portfolio website for my amazing work, built with Gatsby, Contentful and Netlify',
-  siteUrl: 'https://gcn.netlify.com', // Site domain. Do not include a trailing slash! If you wish to use a path prefix you can read more about that here: https://www.gatsbyjs.org/docs/path-prefix/
+  siteUrl: 'https://www.drockdesigns.com/', // Site domain. Do not include a trailing slash! If you wish to use a path prefix you can read more about that here: https://www.gatsbyjs.org/docs/path-prefix/
   author: 'Damon Redding', // Author for RSS author segment and SEO schema
   authorUrl: 'https://gcn.netlify.com/about/', // URL used for author and publisher schema, can be a social profile or other personal site
-  userTwitter: '@twitter', // Change for Twitter Cards
+  userTwitter: '@FearOfDamon', // Change for Twitter Cards
   shortTitle: 'GCN App', // Used for App manifest e.g. Mobile Home Screen
   shareImage: '/logos/share.jpg', // Open Graph Default Share Image. 1200x1200 is recommended
   shareImageWidth: 900, // Change to the width of your default share image

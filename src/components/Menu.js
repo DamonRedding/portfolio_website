@@ -31,7 +31,8 @@ const Nav = styled.nav`
 
   a {
     text-decoration: none;
-    color: DarkGray;
+    color: white;
+    text-decoration: 'underline';
     font-weight: 600;
     transition: all 0.2s;
     border-bottom: 2px solid ${props => props.theme.colors.base};
@@ -52,17 +53,17 @@ const Menu = () => {
         <ul>
           <li>
             <Link to="/" exact activeStyle={activeLinkStyle}>
-              HOME
+              Damon DesignS
             </Link>
           </li>
           <li>
             <Link to="/about/" activeStyle={activeLinkStyle}>
-              ABOUT
+              About
             </Link>
           </li>
           <li>
             <Link to="/contact/" activeStyle={activeLinkStyle}>
-              CONTACT
+              Contact
             </Link>
           </li>
         </ul>
